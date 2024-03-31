@@ -1,0 +1,12 @@
+.amazonLogo:hover{
+border: 1px solid white;
+}
+.deliverDiv{
+  background-color: inherit;
+   height: 100%;
+    width: 80px;
+    color: white;
+}
+  .deliverDiv:hover{
+    border: 1px solid white;
+    }

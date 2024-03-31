@@ -1,0 +1,638 @@
+*{
+    font-family:calibri;
+    font-style: normal;
+    /* border: 1px solid white; */
+}
+body{
+    background-color: rgb(10, 25, 47);
+}
+.nav-div{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2% 3%;
+}
+.menu-div{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+.numbers{
+    color: rgb(100, 255, 218);
+}
+a{
+    font-size: large;
+    color:rgb(204, 214,246);
+    text-decoration: none;
+    font-family: monospace;
+}
+.navItems{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 34px;
+}
+a:hover{
+    color:rgb(100, 255, 218) ;
+}
+.button1{
+    background-color: transparent;
+    height: 40px;
+    border-color: rgb(100, 255, 218);
+    margin-left: 30px;
+    border-radius: 5px;
+    padding: 0;
+    width: 100px;
+}
+.button1:hover{
+    background-color:rgb(136, 146, 176) ;
+    filter: opacity(85%);
+}
+
+/* Body-div sarts here */
+.margin-logo-div{
+    margin: 0 3%;
+    position: fixed;
+    bottom: 0;
+}
+.spacebetween-div{
+    display: flex;
+    justify-content: space-between;
+}
+.line-div{    
+    height: 90px;
+    width: 10px;
+}
+#img-align{
+    align-items: center;
+}
+.vline-div{
+    align-items: center;
+    justify-content: center;
+}
+.leftsticky{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    position: fixed;
+    bottom: 0;
+    align-items: center;
+    margin-left: 3%;
+}
+.rightsticky{
+    display: flex;
+    flex-direction: row;
+    writing-mode: vertical-lr;
+    padding: 20px;
+    position: fixed;
+    right: 3%;
+    bottom: 0;
+    gap: 15px;
+    align-items: center;
+}
+#email-hover{
+    transition: transform 0.3s ease;
+}
+#email-hover:hover{
+    transform: translateY(-5px);
+}
+.logos{
+    width: 34px;
+}
+.logos:hover{
+    background-color:rgb(100, 255, 218);
+
+}
+#email-hover:hover{
+    transition:0.2s ease;
+}
+.git-logo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.all-body-div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 10%;
+}
+h2{
+    color: rgb(100, 255, 218);
+}
+#name-span{
+    color: rgb(204, 214,246);
+    font-size: 65px;
+    font-weight: 600;
+}
+#soft-span{
+    font-size: 45px;
+    color: rgb(136, 146, 176);
+    font-weight: 600;
+}
+#first-p{
+    font-size:18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 28px;
+    width: 65%;
+    color: rgb(136, 146, 176);
+    margin-top: 2%;
+    text-align: justify;
+}
+.button2{
+    background-color: transparent;
+    height: 60px;
+    border-color: rgb(100, 255, 218);
+    border-radius: 5px;
+    width:auto;
+    margin-bottom: 4%;
+}
+.button2:hover{
+    background-color:rgb(136, 146, 176) ;
+    opacity: 1;
+}
+.button2c{
+    font-family: monospace;
+    font-size: x-large;
+    color:  rgb(100, 255, 218);
+}
+
+
+/* Second page starts here */
+
+
+.about-me{
+    display: flex;
+    align-items:baseline;
+}
+h1{
+    color: rgb(204, 214,246) ;
+}
+#first-hr-line{
+    border: 1px solid rgb(48, 60, 85) ;
+    width: 30%;
+    margin-right: 20%;
+}
+.para-and-image{
+    display: flex;
+    gap: 20px;
+}
+.para-width{
+    width: 96%;
+}
+#second-p{
+    color: white;
+    height: fit-content;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-style: normal;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 19px;
+    color: rgb(136, 146, 176);
+    margin-bottom: 4%;
+}
+
+/* link hover  */
+
+.link {
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+}
+.link::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px; 
+    background-color: rgb(100, 255, 218);
+    transition: width 0.3s ease;
+}
+.link:hover::before {
+    width: 100%;
+}
+.link:hover::before {
+    transition-delay: 0.1s;
+}
+.para-pic{
+    width:70% ;
+}
+.image-only{
+    height: fit-content;
+    margin-top: 5%;
+}
+.pic-div{
+    margin-top: 0%;
+    margin-right: 10%;
+}
+.pic-div:hover {
+    transition: transform  0.3s ease;
+}
+.basim-pic{
+    width: 200px;
+    height: 350px;
+    border: none;
+    outline: 2px solid rgb(69, 178, 160); 
+    outline-offset: 6px;
+    padding: 10px;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s; 
+    /* above gpt */
+    /* rgba(59,130,246,.5) */
+    filter: grayscale(100%);   
+}
+.basim-pic:hover{
+    transition: outline-width 0.3s ease;
+    outline-offset: 0px;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    /* above gpt */
+    filter: grayscale(0);
+}
+
+/* List starts here */
+
+.both-listdiv{
+    display: flex;
+    gap: 100px;
+    width: fit-content;
+}
+.list-div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#icon-name{
+    display: flex;
+    color:rgb(136, 146, 176) ;
+    font-size: large;
+    height: 6px;
+    width: fit-content;
+    align-items: center;
+}
+
+
+/* Experience starts here */
+
+
+.about-me1{
+    display: flex;
+    align-items:baseline;
+    margin-top: 5%;
+}
+.combined-right-left{
+    display: flex;
+    align-content: flex-start;
+    gap: 10%;
+}
+.vertical-nav-div{
+    display: flex;
+    flex-direction: column;
+    width: 110px;
+}
+#linker{
+    padding: 10px 0 ;
+    opacity: 100%;
+}
+#linker:hover{
+    background-color:rgb(100, 104, 117);
+}
+.v-n-menu{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(136, 146, 176);
+}
+.t-t-smit{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.t-t{
+    font-size: x-large;
+    color: rgb(204, 214,246);
+}
+.date-span{
+    color: rgb(204, 214,246);
+}
+.icons-instructed{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    line-height: 24px;
+    margin: 3% 0;
+    width: 93%;
+}
+.icons-divs{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+}
+.icon-name1{
+    width: fit-content;
+}
+.instructed-list{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-style: normal;
+    font-family: calibri;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(136, 146, 176);
+    gap: 10px;
+}
+.courses{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+#arrow-image{
+    height: 20px;
+    width: 30px;
+}
+#courses-color{
+    padding: 0 0 0 2px;
+    font-size: 18px;
+    font-weight: 400px;
+    color: rgb(136, 146, 176);
+}
+.cmplt-div{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin: 2% 0;
+    margin-bottom: 4vh;
+}
+.icons-divs1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+}
+#current-span{
+    color: rgb(136, 146, 176);
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+#linker {
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#linker::before {
+    content: '';
+    position: absolute;
+    border-left-color:1px solid rgb(136, 146, 176) ;
+    width: 0;
+    height: 1px; 
+    transition: width 0.3s ease;
+}
+#linker:hover::before {
+    width: 100%;
+}
+#linker:hover::before {
+    transition-delay: 0.1s;
+}
+.linker-v-n-menu{
+    border: 1px solid rgb(10, 25, 47);
+    border-left-color: rgb(136, 146, 176);
+    padding: 0 0 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Something I've buit */
+
+.combined-podcast-image{
+    display: flex;
+    margin-top: 5vh;
+    margin-left: 3vw;
+}
+.podcast-div{
+    display: flex;
+    flex-direction: column;
+    /* gap:1px; */
+    z-index: 1;
+    /* position: absolute; */
+    width: 50%;
+}
+.h2-p{
+    color: rgb(100, 255, 218);
+}
+.pdc-css{
+    color: rgb(230, 241, 251);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+}
+.pts{
+    background-color: rgb(23, 42, 69);
+    width: 120%;
+    padding: 20px;
+    margin-top: 5vh;
+    /* height: 100px; */
+}
+.padding-words{
+    color: rgb(136, 146, 176);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.short-headings{
+    color: rgb(136, 146, 176);
+    font-weight: 400;
+    font-size: 13;
+    line-height: 14px;
+    margin-top: 3vh;
+}
+.two-logo{
+    margin-top: 4vh;
+}
+.img-div-podcast{
+    width: 70%;
+}
+.pdc-sizee{
+    height: 300px;
+    width: 700px;
+    filter: grayscale(100%);
+}
+.pdc-sizee:hover{
+   filter: grayscale(0);
+    
+}
+
+
+/* Second z-index */
+
+.combined-podcast-image-2nd{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 12vh;
+    margin-bottom: 12vh;
+    margin-right: 8vw;
+}
+.podcast-div-2nd{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    width: 50%;
+}
+.h2-p-2nd{
+    color: rgb(100, 255, 218);
+    text-align: right;
+}
+.pdc-css-2nd{
+    color: rgb(230, 241, 251);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: right;
+}
+.pts-2nd{
+    background-color: rgb(23, 42, 69);
+    width: 95%;
+    padding: 20px;
+    margin-top: 5vh;
+    text-align: right;
+}
+.padding-words-2nd{
+    color: rgb(136, 146, 176);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.short-headings-2nd{
+    color: rgb(136, 146, 176);
+    font-weight: 400;
+    font-size: 13;
+    line-height: 14px;
+    margin-top: 3vh;
+    text-align: right;
+}
+.two-logo-2nd{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: right;
+}
+.img-div-podcast-2nd{
+    width: 50%;
+    margin-left: 3vw;
+}
+.pdc-sizee-2nd{
+    height: 300px;
+    width: 700px;
+    filter: grayscale(100%);
+}
+.pdc-sizee-2nd:hover{
+   filter: grayscale(0);
+    
+}
+
+
+/* Other Projects Start here */
+
+
+.other-projects{
+    font-family: calibri;
+    font-size: 32px;
+    font-weight: 600;
+    color: rgb(204, 214,246);
+    line-height: 35px;
+    margin-top: 6vh;
+}
+.box-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    margin-top: 6%;
+    padding: 0 25px 0 25px;
+}
+.inside-box-div{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(23, 42, 69);
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px;
+    width: 300px;
+    height: 300px;
+    justify-content: space-between; 
+    /* above line gpt */
+}
+.inner-all-box{
+    display: flex;
+    gap: 20px;
+}
+.folder-git-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.githubnew{
+    height: 30px;
+}
+.heading-cs{
+    color: rgb(204, 214,246);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.heading-cs1{
+    color: rgb(136, 146, 176);
+    font-size: 17px;
+    font-weight: 400;
+    text-align: justify;
+}
+.heading-cs2{
+    color: rgb(136, 146, 176);
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+.inside-box-div {
+    transition: transform 0.3s ease;
+}
+ 
+.inside-box-div:hover {
+    transform: translateY(-10px);
+}
+
+/* Show more starts here */
+
+.show-more-div{
+    margin: 5% 0 0 0;
+}
+.three-line-div{
+    margin-top: 6%;
+}
+.whats-next{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(100, 255, 218);
+    width: fit-content;
+    height: fit-content;
+}
+.git{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(204, 214,246);
+    width: fit-content;
+    height: fit-content;
+}
+.pfa{
+    font-size: 20px;
+    color: rgb(136, 146, 176);
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    width: 40%;
+}

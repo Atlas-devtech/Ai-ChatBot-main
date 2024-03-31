@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="form-link">
+        <a href="./Form.html">Student Registration Form</a>
+    </div>
+    <div>
+        <div class="firstName"> 
+          <label for="first-name">First Name:</label><input type="text" placeholder="firstName"placeholder="firstName">
+        </div>
+        <div class="lastName">
+            <label for="lastName">Last Name:</label><input type="text" placeholder="enter last name">
+        </div>
+        <div class="email">
+            <label for="Email">Email:</label><input type="email" placeholder="enter email">
+        </div>
+        <div class="mobile">
+            <label for="mobile">Mobile:</label><input type="number" placeholder="enter mobile no.">
+        </div>
+        <div class="gender">
+            Gender: <div class="genderInput">
+                     <input type="radio" id="male" name="gender" value="Gender"><label for="male">Male</label>
+                     <input type="radio" id="female" name="gender" value="Gender"><label for="female">Female</label>
+                    </div>
+        </div>
+        <div class="birth">
+            <label for="birth">Date of Birth:</label> <input type="date" placeholder="date of birth">
+        </div>
+        <div class="address">
+            <label for="adress">Address:</label><input type="text" placeholder="enter address">
+        </div>
+        <div class="city">
+            <label for="city">City:</label><input type="text" placeholder="enter city">
+        </div>
+        <div class="area">
+           <label for="area">Area Pin:</label> <input type="text" placeholder="enter area">
+        </div>
+        <div class="state">
+            <label for="state">State: </label><input type="text" placeholder="enter state">
+        </div>
+        <div class="qualification">
+            <label for="qualification">Qualification</label>
+            <select name="qualification" id="qualification">
+                <option value="" disabled selected>Select Qualification</option>
+                <option value="audi">middle</option>
+                <option value="volvo">10th</option>
+                <option value="saab">fsc</option>
+                <option value="opel">bs</option>
+              </select>
+        </div>
+        <div class="specilization"></div>
+        specialization:
+         <div>
+             <input type="checkbox" id="computer-science" name="checkbox-1" value="computer-science">
+             <label for="checkbox-1">computer-science</label><br>
+             <input type="checkbox" id="information-technology" name="checkbox-2" value="information-technology">
+             <label for="checkbox-2">computer-technology</label><br>
+             <input type="checkbox" id="computer-architecture" name="checkbox-3" value="computer-architecture">
+             <label for="checkbox-3">computer-architecture</label><br>
+             <input type="checkbox" id="tele-communication" name="checkbox-4" value="tele-communication">
+             <label for="checkbox-4">Tele communication</label><br>
+        </div>
+        <div class="password" placeholder="enter password">
+            Password: <input type="password">
+        </div>
+        <div class="registerbtn">
+            <button>Register</button>
+        </div>
+    </div>
+</body>
+</html>

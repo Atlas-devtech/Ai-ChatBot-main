@@ -1,0 +1,463 @@
+
+  .navBar img {
+    height: 60px;
+    margin-right: 5px;
+    margin-left: 50px;
+    vertical-align: middle; 
+    background-color: beige;
+}
+  .navBar{
+    background-color: beige;
+}
+.tropikp-text{
+    font-weight: bold;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  .home-link{
+    margin-left: 490px;
+  }
+  a{
+    margin-left: 100px;
+  }
+  .fa-solid{
+    margin-left: 60px;
+    vertical-align: middle;
+  }
+  .quote-btn{
+    margin-left: 60px;
+    padding: 10px 22px;
+    vertical-align: middle;
+    border: none;
+    background-color: rgb(252, 93,53, 1);
+  }
+  .heroSection{
+    background-color: beige;
+    height: 450px;
+  }
+  .heroText{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 20px;
+    width: 50%;
+  }
+  .fruitShopeHeading{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 20px;
+    margin-left: 50px;
+    width: 60%;
+    font-size: 60px;
+    font-weight: bold;
+  }
+  .heroLogo{
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+  }
+  .heroLogo img{
+    width: 630px;
+  height: 380px;
+  padding: 50px 0px 0px 20px;
+  }
+  .fruitShopText{
+    margin-left: 50px;
+    font-size: 20px;
+    /* text-align: center; */
+  }
+  .shopNow{
+    height: 45px;
+    margin-left: 50px ;
+    margin-bottom: 0px;
+    padding: 10px 22px;
+    border: none;
+    color: white;
+    background-color: rgb(252, 93,53, 1);
+
+  }
+  .contectUs{
+    height: 45px;
+
+    margin-left: 20px;
+    padding: 10px 22px;
+    border: none;
+    color: white;
+    background-color: rgb(32, 30, 29);
+  }
+  .servicesSection,.servicesCard{
+    width: 100%;
+  }
+  .servicesSection{
+    height: 680px;
+  }
+  .servicesCard{
+    margin-top: 80px;
+  }
+  .servicesHeadindSec{
+    text-align: center;
+  }
+.servicePara{
+  font-size: 20px;
+}
+.orangeCard{
+  width: 30%;
+  height: 400px;
+  text-align: center;
+  display: inline-block;
+  border: 2px solid rgb(176, 157, 157) ;
+  vertical-align: middle;
+  margin-left: 50px;
+}
+.orangeLogo{
+  margin-top: 80px;
+}
+.orangeCardheading{
+  color: orange;
+}
+.grapesCard{
+  width: 30%;
+  height: 400px;
+  margin-left: 15px;
+  display: inline-block;
+  text-align: center;
+  border: 2px solid rgb(176, 157, 157) ;
+  vertical-align: middle;
+}
+.grapesLogo{
+  margin-top: 80px;
+}
+.grapesCardheading{
+  color: orange;
+}
+.gauvaCard{
+  width: 30%;
+  height: 400px;
+  margin-left: 15px;
+  margin-right: 50px;
+  display:inline-block ;
+  text-align: center;
+  border: 2px solid rgb(176, 157, 157) ;
+  vertical-align: middle;
+}
+.gauvaLogo{
+  margin-top: 80px;
+}
+.gauvaCardheading{
+  color: orange;
+}
+.readMore {
+  margin-top: 30px;
+  width: 150px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-left: 650px;
+}
+.freshfruitheading{
+  text-align: center;
+}
+.freshFruitPara{
+  text-align: center;
+  font-size: 20px;
+}
+.bestFreshOrangeSection{
+  width: 100%;
+  height: 350px;
+  border: 2px solid black;
+}
+.bestFreshOrangeTextSec{
+display: inline-block;
+  width: 59%;
+}
+.bestFreshOrangeSechead{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.bestFreshOrangeSecPara{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.bestFreshOrangeSecBuyNowBtn{
+  margin-top: 30px;
+  width: 150px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-left: 50px;
+}
+.bestFreshOrangeLogoSec{
+  display:inline-block ;
+  height: 350px;
+  width: 40%;
+}
+.bestFreshOrangeLogo{
+  margin-top: 50px;
+  margin-left: 90px;
+  
+}
+.bestFreshGrapesSection{
+  width: 100%;
+  height: 350px;
+  border: 2px solid black;
+}
+.bestFreshGrapesTextSec{
+  display: inline-block;
+  width: 59%;
+}
+.bestFreshGrapesheadSec{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.bestFreshGrapesParaSec{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.bestFreshGrapesSecBuyNowBtn{
+  margin-top: 30px;
+  width: 150px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-left: 50px;
+}
+.bestFreshGrapesLogoSec{
+  display:inline-block ;
+  height: 350px;
+  width: 40%;
+}
+.bestFreshGrapesLogo{
+  height: 230px;
+  margin-top: 50px;
+  margin-left: 180px;
+  align-items: center;
+}
+.bestFreshGauvaSection{
+  width: 100%;
+  height: 350px;
+  border: 2px solid black;
+}
+.bestFreshGauvaTextSec{
+  display: inline-block;
+  width: 59%;
+}
+.bestFreshGauvaHeadSec{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.bestFreshGauvaParaSec{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.bestFreshGauvaSecBuyNowBtn{
+  margin-top: 30px;
+  width: 150px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-left: 50px;
+}
+.bestFreshGauvaLogoSec{
+  display:inline-block ;
+  height: 350px;
+  width: 40%;
+}
+.bestFreshGauvaLogo{
+  height: 230px;
+  margin-top: 50px;
+  margin-left: 180px;
+  align-items: center;
+}
+.testimonialSection{
+  width: 100%;
+}
+.testimonialHead{
+  text-align: center;
+  margin-top: 30px;
+}
+.testimonialPara{
+  text-align: center;
+  margin-top: 30px;
+}
+.testimoniallogo{
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 550px;
+}
+.testimonialLogoName{
+  text-align: center;
+}
+.testimoniallogoPara{
+  font-size: 31px;
+  margin-top: 40px;
+  text-align: center;
+}
+.contactUsSection{
+  width: 100%;
+  height: 700px;
+}
+.contactUsForm{
+  display: inline-block;
+  width: 69%;
+}
+.contectUsHeading{
+  margin-top: 100px;
+margin-left: 50px;
+}
+.nameInput{
+  margin-left: 50px;
+  margin-top: 20px;
+  width: 530px;
+  height: 30px;
+  vertical-align: bottom;
+  border-style: none none solid none;
+}
+.nameInput:focus {
+  outline: none; 
+  border-color: black;
+}
+.phoneNumberInput{
+  margin-left: 50px;
+  width: 530px;
+  height: 30px;
+  vertical-align: bottom;
+  border-style: none none solid none;
+}
+.phoneNumberInput:focus {
+  outline: none; 
+  border-color: black;
+}
+.EmailInput{
+  margin-left: 50px;
+  width: 530px;
+  height: 30px;
+  vertical-align: bottom;
+  border-style: none none solid none;
+}
+.Email:focus {
+  outline: none; 
+  border-color: black;
+}
+.messageInput{
+  margin-left: 50px;
+  margin-top: 30px;
+  width: 530px;
+  height: 30px;
+  vertical-align: bottom;
+  border-style: none none solid none;
+}
+.messageInput:focus {
+  outline: none; 
+  border-color: black;
+}
+.contactSecSend{
+  margin-top: 40px;
+  margin-left: 50px;
+  width: 90px;
+  height: 30px;
+  background-color: rgb(252, 93,53, 1);
+  border: none;
+}
+.contactUsLogo{
+  width: 30%;
+  display: inline-block;
+  /* text-align: right;  */
+
+}
+.contactLogo{
+  float: right;
+  height: 550px;
+  margin-top: 100px;
+}
+.footer{
+  width: 100%;
+  height: 500px;
+}
+.fotterFruitSec{
+  width: 15%;
+  height: 400px;
+  display: inline-block;
+  margin-left: 50px;
+}
+.fruitSecHeading{
+  text-align: left;
+}
+.fruitSecPara{
+  text-align: left;
+  font-size: 30px;
+}
+.fotterServicesSec{
+  margin-left: 150px;
+  width: 15%;
+  height: 400px;
+  display: inline-block;
+}
+.servicesSecHeading{
+  text-align: left;
+}
+.servicesSecPara{
+  text-align: left;
+  font-size: 30px;
+}
+.footerListSec{  
+  margin-left: 150px;
+  width: 15%;
+  height: 400px;
+  display: inline-block;
+}
+.listSecHeading{
+  text-align: left;
+}
+.listSecPara{
+  text-align: left;
+  font-size: 30px;
+}
+.followUsSec{
+  margin-left: 150px;
+  width: 15%;
+  height: 400px;
+  display: inline-block;
+}
+.followUsHeading{
+  margin-top: 0px;
+  text-align: left;
+}
+.subscribeInput{
+  margin-top: 10px;
+}
+.subscribeBtn{
+  background-color: rgb(252, 93,53, 1);
+  width: 120px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+}
+.copyRightDiv{
+  height: 100px;
+background-color: beige;
+}
+.copyRigtText{
+  text-align: center;
+  font-size: 40px;
+  padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+  
